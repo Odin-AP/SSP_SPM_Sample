@@ -20,6 +20,5 @@ let package = Package(
         .testTarget(
             name: "SSP_SPM_SampleTests",
             dependencies: ["SSP_SPM_Sample"]),
-        .binaryTarget(name: "SSP_SPM", path: "Framework/AdPopcornSSP.xcframework")
     ]
 )
